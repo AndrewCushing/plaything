@@ -18,7 +18,7 @@
         public IActionResult Get(int statusCode)
         {
             _logger.LogInformation("Responding with status code {statusCode}", statusCode);
-            return new StatusCodeResult(statusCode);
+            return new ObjectResult("Have a status code"){StatusCode = statusCode};
         }
     }
 }
