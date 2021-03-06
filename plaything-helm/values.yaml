@@ -1,0 +1,4 @@
+deploy:
+  replicas: 3
+  image:
+    repository: plaything

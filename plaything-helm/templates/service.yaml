@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: "{{ .Release.Name }}-playing-svc"
+  labels:
+    app: plaything
+spec:
+  selector:
+    app: plaything
+  ports:
+    - protocol: TCP
+      port: 7500
+      targetPort: 5000

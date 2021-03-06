@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: "{{ .Release.Name }}-plaything-deployment"
+  labels:
+    app: plaything
+spec:
+  replicas: {{ .Values.deploy.replicas }}
+  selector:
+    matchLabels:
+      app: plaything
+  template:
+    metadata:
+      labels:
+        app: plaything
+    spec:
+      containers:
+      - name: plaything
+        image: "{{ .Values.deploy.image.repository }}:{{ .Chart.AppVersion }}"
