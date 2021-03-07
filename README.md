@@ -15,3 +15,7 @@ There are a few endpoints you can hit:
   - The service will log that it's about to die to stdout and then immediately terminate with an exit code of 666.
 - GET http://{container}:5000/code/{code}
   - The service will respond with whatever http status code you provide, and log the fact that it did that to stdout.
+- GET http://{container}:5000/env/
+  - The service will respond with a list of all configuration available to it after loading appsettings.json followed by
+  environment variables, in that order. This means that any environment variable with the same name as something in 
+  appsettings.json will replace the value from appsettings.json.
