@@ -18,4 +18,5 @@ There are a few endpoints you can hit:
 - GET http://{container}:5000/env/
   - The service will respond with a list of all configuration available to it after loading appsettings.json followed by
   environment variables, in that order. This means that any environment variable with the same name as something in 
-  appsettings.json will replace the value from appsettings.json.
+  appsettings.json will replace the value from appsettings.json. Of course the service will also log a message to say 
+  someone requested environment variables.

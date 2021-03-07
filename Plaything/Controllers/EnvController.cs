@@ -18,7 +18,7 @@
         [HttpGet]
         public IActionResult Get()
         {
-            _logger.LogInformation("Someone wants to see all my environment variables.");
+            _logger.LogInformation("Someone wants to see all my environment variables. Who am I to argue?");
             var env = new ConfigurationBuilder().AddJsonFile("appsettings.json").AddEnvironmentVariables().Build();
             return new OkObjectResult(env.AsEnumerable());
         }
