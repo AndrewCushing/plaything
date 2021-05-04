@@ -1,6 +1,5 @@
 ﻿namespace Plaything.Controllers
 {
-    using System;
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.Extensions.Logging;
 
