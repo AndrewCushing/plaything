@@ -18,7 +18,7 @@
         public IActionResult Get()
         {
             _logger.LogInformation("Saying hello");
-            return new OkObjectResult("Hi there");
+            return new OkObjectResult("Hi there\n");
         }
     }
 }

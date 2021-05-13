@@ -7,7 +7,9 @@ metadata:
 spec:
   selector:
     app: plaything
+  type: NodePort
   ports:
     - protocol: TCP
       port: 7500
       targetPort: 5000
+      nodePort: 30027
