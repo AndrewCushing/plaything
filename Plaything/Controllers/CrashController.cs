@@ -1,4 +1,4 @@
-﻿namespace Plaything.Controllers
+﻿namespace PlaythingV2.Controllers
 {
     using System;
     using Microsoft.AspNetCore.Mvc;

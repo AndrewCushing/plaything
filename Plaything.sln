@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plaything", "Plaything\Plaything.csproj", "{B4C0C763-8F0E-4429-A30A-6CC6BD9C9B7C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plaything", "Plaything\Plaything.csproj", "{D5614910-6D37-4BCA-B8BE-A395AB20C816}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B4C0C763-8F0E-4429-A30A-6CC6BD9C9B7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B4C0C763-8F0E-4429-A30A-6CC6BD9C9B7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B4C0C763-8F0E-4429-A30A-6CC6BD9C9B7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B4C0C763-8F0E-4429-A30A-6CC6BD9C9B7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5614910-6D37-4BCA-B8BE-A395AB20C816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5614910-6D37-4BCA-B8BE-A395AB20C816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5614910-6D37-4BCA-B8BE-A395AB20C816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5614910-6D37-4BCA-B8BE-A395AB20C816}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
