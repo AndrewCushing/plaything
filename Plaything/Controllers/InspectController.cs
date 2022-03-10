@@ -1,4 +1,4 @@
-﻿namespace Plaything.Controllers
+﻿namespace PlaythingV2.Controllers
 {
     using System.Collections.Generic;
     using System.Text.Json;
