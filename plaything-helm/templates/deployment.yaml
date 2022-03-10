@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: plaything
-        image: "{{ .Values.deploy.image.repository }}:{{ .Chart.AppVersion }}"
+        image: "{{ .Values.deploy.image.repository }}:{{ .Values.deploy.image.tag }}"
         ports:
         - containerPort: 5000
