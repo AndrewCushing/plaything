@@ -2,4 +2,4 @@ deploy:
   replicas: 3
   image:
     repository: andybot/plaything
-    tag: "1.2.0"
+    tag: "1.3.0"
